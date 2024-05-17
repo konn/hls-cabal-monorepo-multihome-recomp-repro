@@ -1,0 +1,9 @@
+{
+  "haskell.sessionLoading": "multipleComponents",
+  "haskell.trace.client": "debug",
+  "haskell.trace.server": "verbose",
+  "haskell.toolchain": {
+    "hls": "2.8.0.0",
+    "cabal": "3.12.0.0-prerelease"
+  }
+}

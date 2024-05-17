@@ -1,0 +1,17 @@
+cabal-version: 3.4
+name: package-b
+version: 0.1.0.0
+-- synopsis:
+-- description:
+license: BSD-3-Clause
+license-file: LICENSE
+author: Hiromi ISHII
+maintainer: konn.jinro_at_gmail.com
+build-type: Simple
+extra-doc-files: CHANGELOG.md
+
+library
+  ghc-options: -Wall
+  exposed-modules: MyLibB
+  build-depends: base
+  hs-source-dirs: src
